@@ -18,7 +18,7 @@ I bought this digital clock/calendar from a recycling center for around $1, but 
 
 I’ve created this video to showcase how the project works and the reverse engineering process behind it:
 
-[![Demo Video](https://img.youtube.com/vi/LNERu-DqztY/0.jpg)](https://www.youtube.com/watch?v=LNERu-DqztY)
+[![Demo Video](https://img.youtube.com/vi/z3l11CKApYk/0.jpg)](https://www.youtube.com/watch?v=z3l11CKApYk)
 
 
 ### Hardware
