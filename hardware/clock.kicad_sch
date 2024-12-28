@@ -1,0 +1,125 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8ec9e7a0-62d7-409a-b294-234c366f0b32")
+	(paper "A3")
+	(title_block
+		(title "Raspberry Pi Pico clock calendar")
+		(date "2024-12-22")
+		(rev "1.0")
+		(company "Pakéquis")
+	)
+	(lib_symbols)
+	(text "Raspberry Pi Pico W\nConnections"
+		(exclude_from_sim no)
+		(at 131.064 122.682 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "364f6c84-2203-4ae3-a4f6-7c65c04cfeb1")
+	)
+	(text "Digital Clock/Calendar\nReverse Engineering\nSchematics"
+		(exclude_from_sim no)
+		(at 212.344 42.926 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "4a3daca5-8e9e-4bb5-b087-df3adca060c2")
+	)
+	(text "Clock-calendar Reverse\nschematic"
+		(exclude_from_sim no)
+		(at 298.45 122.682 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "da73e42f-730a-453d-920f-2aa2880861ae")
+	)
+	(sheet
+		(at 88.9 97.79)
+		(size 91.44 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ab51b4e-befa-4553-968c-e56eb662ede3")
+		(property "Sheetname" "Rasp-Pi-Pico-conn"
+			(at 88.9 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conn_sch.kicad_sch"
+			(at 88.9 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/8ec9e7a0-62d7-409a-b294-234c366f0b32"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 97.79)
+		(size 91.44 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9518d37-6e12-435b-a397-d889057648ef")
+		(property "Sheetname" "Clock_sch"
+			(at 251.46 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock_sch.kicad_sch"
+			(at 251.46 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/8ec9e7a0-62d7-409a-b294-234c366f0b32"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
